@@ -33,9 +33,11 @@ class WIDERFaceDataset(XMLDataset):
         data_infos = []
         img_ids = mmcv.list_from_file(ann_file)
         for img_id in img_ids:
-            filename = f'{img_id}.jpg'
+            filename = img_id
+            if '.jpg' not in filename:
+                continue
             xml_path = osp.join(self.img_prefix, 'Annotations',
-                                f'{img_id}.xml')
+                                f'{img_id.split("/")[1].split(".")[0]}.xml')
             tree = ET.parse(xml_path)
             root = tree.getroot()
             size = root.find('size')
@@ -44,9 +46,9 @@ class WIDERFaceDataset(XMLDataset):
             folder = root.find('folder').text
             data_infos.append(
                 dict(
-                    id=img_id,
-                    filename=osp.join(folder, filename),
+                    id=img_id.split("/")[1].split(".")[0],
+                    filename=filename,
                     width=width,
                     height=height))
-
+        print('returning_data_infos')
         return data_infos

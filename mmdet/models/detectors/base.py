@@ -270,7 +270,8 @@ class BaseDetector(BaseModule, metaclass=ABCMeta):
                     win_name='',
                     show=False,
                     wait_time=0,
-                    out_file=None):
+                    out_file=None,
+                    sort_tracker=None,):
         """Draw `result` over `img`.
 
         Args:
@@ -295,6 +296,7 @@ class BaseDetector(BaseModule, metaclass=ABCMeta):
                 Default: False.
             out_file (str or None): The filename to write the image.
                 Default: None.
+            sort_tracker (Sort tracker): Our best tracker
 
         Returns:
             img (Tensor): Only if not `show` or `out_file`
@@ -340,7 +342,8 @@ class BaseDetector(BaseModule, metaclass=ABCMeta):
             win_name=win_name,
             show=show,
             wait_time=wait_time,
-            out_file=out_file)
+            out_file=out_file,
+            sort_tracker=sort_tracker,)
 
         if not (show or out_file):
             return img

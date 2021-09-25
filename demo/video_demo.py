@@ -4,6 +4,7 @@ import argparse
 import cv2
 import mmcv
 
+from demo.sort import Sort
 from mmdet.apis import inference_detector, init_detector
 
 
@@ -43,9 +44,13 @@ def main():
             args.out, fourcc, video_reader.fps,
             (video_reader.width, video_reader.height))
 
+    # Поехали, мы совсем отбитые поэтому создадим трекер тут и пробросим его аж до функции отрисовки
+    sort_tracker = Sort(max_age=5, min_hits=3, iou_threshold=0.1)
+    # sort_tracker = None
+
     for frame in mmcv.track_iter_progress(video_reader):
         result = inference_detector(model, frame)
-        frame = model.show_result(frame, result, score_thr=args.score_thr)
+        frame = model.show_result(frame, result, score_thr=args.score_thr, sort_tracker=sort_tracker)
         if args.show:
             cv2.namedWindow('video', 0)
             mmcv.imshow(frame, 'video', args.wait_time)

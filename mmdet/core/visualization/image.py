@@ -6,6 +6,7 @@ import pycocotools.mask as mask_util
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
 
+from demo.sort import Sort
 from ..utils import mask2ndarray
 
 EPS = 1e-2
@@ -40,7 +41,8 @@ def imshow_det_bboxes(img,
                       win_name='',
                       show=True,
                       wait_time=0,
-                      out_file=None):
+                      out_file=None,
+                      sort_tracker: Sort = None,):
     """Draw bboxes and class labels (with scores) on an image.
 
     Args:
@@ -65,6 +67,7 @@ def imshow_det_bboxes(img,
         wait_time (float): Value of waitKey param. Default: 0.
         out_file (str, optional): The filename to write the image.
             Default: None
+        sort_tracker (Sort tracker): our best tracker.
 
     Returns:
         ndarray: The image with bboxes drawn on it.
@@ -78,7 +81,6 @@ def imshow_det_bboxes(img,
     assert bboxes.shape[1] == 4 or bboxes.shape[1] == 5, \
         f' bboxes.shape[1] should be 4 or 5, but its {bboxes.shape[1]}.'
     img = mmcv.imread(img).astype(np.uint8)
-
     if score_thr > 0:
         assert bboxes.shape[1] == 5
         scores = bboxes[:, -1]
@@ -131,6 +133,14 @@ def imshow_det_bboxes(img,
 
     polygons = []
     color = []
+    if sort_tracker is not None:
+        # Ворованный трекер жрёт [x1, y1, x2, y2, score], выплюнет [x1, y1, x2, y2, id]
+        # Потеряем скоры, да и бог с ними
+        if bboxes.size > 0:
+            bboxes = sort_tracker.update(bboxes)
+        else:
+            bboxes = sort_tracker.update()
+
     for i, (bbox, label) in enumerate(zip(bboxes, labels)):
         bbox_int = bbox.astype(np.int32)
         poly = [[bbox_int[0], bbox_int[1]], [bbox_int[0], bbox_int[3]],
@@ -141,7 +151,11 @@ def imshow_det_bboxes(img,
         label_text = class_names[
             label] if class_names is not None else f'class {label}'
         if len(bbox) > 4:
-            label_text += f'|{bbox[-1]:.02f}'
+            # Помним что у нас там скора больше нет, там id объекта
+            if sort_tracker is not None:
+                label_text += f'|score ??? |id {bbox[-1]}'
+            else:
+                label_text += f'|{bbox[-1]:.02f}'
         ax.text(
             bbox_int[0],
             bbox_int[1],
