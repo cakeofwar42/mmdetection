@@ -11,7 +11,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1803.01534
       Title: 'Path Aggregation Network for Instance Segmentation'
-    README: configs/pafpn/README.md
+    README: configs/pafpn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/necks/pafpn.py#L11
       Version: v2.0.0

@@ -16,7 +16,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1901.07518
       Title: 'Hybrid Task Cascade for Instance Segmentation'
-    README: configs/htc/README.md
+    README: configs/htc/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/htc.py#L6
       Version: v2.0.0

@@ -15,7 +15,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2004.13665
       Title: 'A novel Region of Interest Extraction Layer for Instance Segmentation'
-    README: configs/groie/README.md
+    README: configs/groie/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.1.0/mmdet/models/roi_heads/roi_extractors/groie.py#L15
       Version: v2.1.0

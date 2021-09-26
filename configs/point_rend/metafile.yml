@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1912.08193
       Title: 'PointRend: Image Segmentation as Rendering'
-    README: configs/point_rend/README.md
+    README: configs/point_rend/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.2.0/mmdet/models/detectors/point_rend.py#L6
       Version: v2.2.0

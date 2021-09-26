@@ -11,7 +11,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2004.03580
       Title: 'Feature Pyramid Grids'
-    README: configs/fpg/README.md
+    README: configs/fpg/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.10.0/mmdet/models/necks/fpg.py#L101
       Version: v2.10.0

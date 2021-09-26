@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1903.10520
       Title: 'Weight Standardization'
-    README: configs/gn+ws/README.md
+    README: configs/gn+ws/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/configs/gn%2Bws/mask_rcnn_r50_fpn_gn_ws-all_2x_coco.py
       Version: v2.0.0

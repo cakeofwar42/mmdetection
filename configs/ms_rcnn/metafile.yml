@@ -14,7 +14,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1903.00241
       Title: 'Mask Scoring R-CNN'
-    README: configs/ms_rcnn/README.md
+    README: configs/ms_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/mask_scoring_rcnn.py#L6
       Version: v2.0.0

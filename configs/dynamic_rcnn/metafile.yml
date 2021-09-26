@@ -15,7 +15,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/pdf/2004.06002
       Title: 'Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training'
-    README: configs/dynamic_rcnn/README.md
+    README: configs/dynamic_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.2.0/mmdet/models/roi_heads/dynamic_roi_head.py#L11
       Version: v2.2.0

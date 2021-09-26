@@ -14,7 +14,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1506.01497
       Title: 'Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks'
-    README: configs/faster_rcnn/README.md
+    README: configs/faster_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/faster_rcnn.py#L6
       Version: v2.0.0

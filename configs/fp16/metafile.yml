@@ -8,7 +8,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1710.03740
       Title: 'Mixed Precision Training'
-    README: configs/fp16/README.md
+    README: configs/fp16/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/core/fp16/hooks.py#L11
       Version: v2.0.0

@@ -14,7 +14,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1811.05181
       Title: 'Gradient Harmonized Single-stage Detector'
-    README: configs/ghm/README.md
+    README: configs/ghm/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/losses/ghm_loss.py#L21
       Version: v2.0.0

@@ -14,7 +14,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.11490
       Title: 'RepPoints: Point Set Representation for Object Detection'
-    README: configs/reppoints/README.md
+    README: configs/reppoints/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/reppoints_detector.py#L9
       Version: v2.0.0

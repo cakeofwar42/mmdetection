@@ -14,7 +14,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1906.05688
       Title: 'Grid R-CNN'
-    README: configs/grid_rcnn/README.md
+    README: configs/grid_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/grid_rcnn.py#L6
       Version: v2.0.0

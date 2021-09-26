@@ -11,7 +11,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.04514
       Title: 'Deep High-Resolution Representation Learning for Visual Recognition'
-    README: configs/hrnet/README.md
+    README: configs/hrnet/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/backbones/hrnet.py#L195
       Version: v2.0.0

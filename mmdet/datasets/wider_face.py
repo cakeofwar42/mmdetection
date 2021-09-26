@@ -50,5 +50,4 @@ class WIDERFaceDataset(XMLDataset):
                     filename=filename,
                     width=width,
                     height=height))
-        print('returning_data_infos')
         return data_infos

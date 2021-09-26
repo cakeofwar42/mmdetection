@@ -11,7 +11,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.01169
       Title: 'Res2Net for object detection and instance segmentation'
-    README: configs/res2net/README.md
+    README: configs/res2net/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.1.0/mmdet/models/backbones/res2net.py#L239
       Version: v2.1.0

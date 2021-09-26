@@ -17,7 +17,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2006.02334
       Title: 'DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution'
-    README: configs/detectors/README.md
+    README: configs/detectors/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.2.0/mmdet/models/backbones/detectors_resnet.py#L205
       Version: v2.2.0

@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.02689
       Title: 'YOLACT: Real-time Instance Segmentation'
-    README: configs/yolact/README.md
+    README: configs/yolact/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.5.0/mmdet/models/detectors/yolact.py#L9
       Version: v2.5.0

@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2005.12872
       Title: 'End-to-End Object Detection with Transformers'
-    README: configs/detr/README.md
+    README: configs/detr/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.7.0/mmdet/models/detectors/detr.py#L7
       Version: v2.7.0

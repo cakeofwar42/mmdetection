@@ -15,7 +15,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.04821
       Title: 'Prime Sample Attention in Object Detection'
-    README: configs/pisa/README.md
+    README: configs/pisa/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.1.0/mmdet/models/roi_heads/pisa_roi_head.py#L8
       Version: v2.1.0

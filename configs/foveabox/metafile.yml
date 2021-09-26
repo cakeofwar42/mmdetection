@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.03797
       Title: 'FoveaBox: Beyond Anchor-based Object Detector'
-    README: configs/foveabox/README.md
+    README: configs/foveabox/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/fovea.py#L6
       Version: v2.0.0

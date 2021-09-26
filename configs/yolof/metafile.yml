@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2103.09460
       Title: 'You Only Look One-level Feature'
-    README: configs/yolof/README.md
+    README: configs/yolof/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.12.0/mmdet/models/detectors/yolof.py#L6
       Version: v2.12.0

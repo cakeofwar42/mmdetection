@@ -10,7 +10,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1908.07801
       Title: 'Instaboost: Boosting instance segmentation via probability map guided copy-pasting'
-    README: configs/instaboost/README.md
+    README: configs/instaboost/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/datasets/pipelines/instaboost.py#L7
       Version: v2.0.0

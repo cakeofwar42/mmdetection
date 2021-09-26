@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.02701
       Title: 'Libra R-CNN: Towards Balanced Learning for Object Detection'
-    README: configs/libra_rcnn/README.md
+    README: configs/libra_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/necks/bfp.py#L10
       Version: v2.0.0

@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1904.07392
       Title: 'NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection'
-    README: configs/nas_fpn/README.md
+    README: configs/nas_fpn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/necks/nas_fpn.py#L67
       Version: v2.0.0

@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1901.03278
       Title: 'Region Proposal by Guided Anchoring'
-    README: configs/guided_anchoring/README.md
+    README: configs/guided_anchoring/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/dense_heads/ga_retina_head.py#L10
       Version: v2.0.0

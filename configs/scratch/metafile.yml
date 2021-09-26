@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1811.08883
       Title: 'Rethinking ImageNet Pre-training'
-    README: configs/scratch/README.md
+    README: configs/scratch/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/configs/scratch/faster_rcnn_r50_fpn_gn-all_scratch_6x_coco.py
       Version: v2.0.0

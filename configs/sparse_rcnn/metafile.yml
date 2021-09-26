@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2011.12450
       Title: 'Sparse R-CNN: End-to-End Object Detection with Learnable Proposals'
-    README: configs/sparse_rcnn/README.md
+    README: configs/sparse_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.9.0/mmdet/models/detectors/sparse_rcnn.py#L6
       Version: v2.9.0

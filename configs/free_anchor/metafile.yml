@@ -12,7 +12,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1909.02466
       Title: 'FreeAnchor: Learning to Match Anchors for Visual Object Detection'
-    README: configs/free_anchor/README.md
+    README: configs/free_anchor/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/dense_heads/free_anchor_retina_head.py#L10
       Version: v2.0.0

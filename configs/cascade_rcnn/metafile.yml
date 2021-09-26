@@ -15,7 +15,7 @@ Collections:
     Paper:
       URL: http://dx.doi.org/10.1109/tpami.2019.2956516
       Title: 'Cascade R-CNN: Delving into High Quality Object Detection'
-    README: configs/cascade_rcnn/README.md
+    README: configs/cascade_rcnn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/cascade_rcnn.py#L6
       Version: v2.0.0

@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1708.02002
       Title: 'Focal Loss for Dense Object Detection'
-    README: configs/retinanet/README.md
+    README: configs/retinanet/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.0.0/mmdet/models/detectors/retinanet.py#L6
       Version: v2.0.0

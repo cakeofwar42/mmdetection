@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2006.04388
       Title: 'Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection'
-    README: configs/gfl/README.md
+    README: configs/gfl/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.2.0/mmdet/models/detectors/gfl.py#L6
       Version: v2.2.0

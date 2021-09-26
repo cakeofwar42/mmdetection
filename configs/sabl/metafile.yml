@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1912.04260
       Title: 'Side-Aware Boundary Localization for More Precise Object Detection'
-    README: configs/sabl/README.md
+    README: configs/sabl/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.4.0/mmdet/models/roi_heads/bbox_heads/sabl_head.py#L14
       Version: v2.4.0

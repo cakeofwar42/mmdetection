@@ -11,7 +11,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1804.02767
       Title: 'YOLOv3: An Incremental Improvement'
-    README: configs/yolo/README.md
+    README: configs/yolo/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.4.0/mmdet/models/detectors/yolo.py#L8
       Version: v2.4.0

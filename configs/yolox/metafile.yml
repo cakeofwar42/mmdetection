@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/2107.08430
       Title: 'YOLOX: Exceeding YOLO Series in 2021'
-    README: configs/yolox/README.md
+    README: configs/yolox/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.15.1/mmdet/models/detectors/yolox.py#L6
       Version: v2.15.1

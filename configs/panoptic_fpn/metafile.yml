@@ -11,7 +11,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/pdf/1901.02446
       Title: 'Panoptic feature pyramid networks'
-    README: configs/panoptic_fpn/README.md
+    README: configs/panoptic_fpn/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.16.0/mmdet/models/detectors/panoptic_fpn.py#L7
       Version: v2.16.0

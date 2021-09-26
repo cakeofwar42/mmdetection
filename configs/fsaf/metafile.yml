@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1903.00621
       Title: 'Feature Selective Anchor-Free Module for Single-Shot Object Detection'
-    README: configs/fsaf/README.md
+    README: configs/fsaf/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.1.0/mmdet/models/detectors/fsaf.py#L6
       Version: v2.1.0

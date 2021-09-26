@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://openreview.net/forum?id=gZ9hCDWe6ke
       Title: 'Deformable DETR: Deformable Transformers for End-to-End Object Detection'
-    README: configs/deformable_detr/README.md
+    README: configs/deformable_detr/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.12.0/mmdet/models/detectors/deformable_detr.py#L6
       Version: v2.12.0

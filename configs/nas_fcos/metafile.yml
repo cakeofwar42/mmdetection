@@ -13,7 +13,7 @@ Collections:
     Paper:
       URL: https://arxiv.org/abs/1906.04423
       Title: 'NAS-FCOS: Fast Neural Architecture Search for Object Detection'
-    README: configs/nas_fcos/README.md
+    README: configs/nas_fcos/mmdet_README.md
     Code:
       URL: https://github.com/open-mmlab/mmdetection/blob/v2.1.0/mmdet/models/detectors/nasfcos.py#L6
       Version: v2.1.0
